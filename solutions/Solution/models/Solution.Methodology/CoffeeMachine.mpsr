@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:fff399dc-68c4-41c5-9ef0-87bce437d416(Solution.Methodology)" content="root">
+  <persistence version="9" />
+  <imports />
+  <registry>
+    <language id="50a851c9-401b-45e3-83bb-77ced6965729" name="FeatureModel">
+      <concept id="6905298041406732267" name="FeatureModel.structure.ComplexFeature" flags="ng" index="35UNKg">
+        <child id="1157195173468266" name="split" index="1Zh0gs" />
+      </concept>
+      <concept id="6905298041406732266" name="FeatureModel.structure.SimpleFeature" flags="ng" index="35UNKh" />
+      <concept id="6905298041406732265" name="FeatureModel.structure.Feature" flags="ng" index="35UNKi">
+        <property id="1157195173468261" name="bindingTime1" index="1Zh0gj" />
+      </concept>
+      <concept id="6905298041406732264" name="FeatureModel.structure.RootFeature" flags="ng" index="35UNKj" />
+      <concept id="6905298041406732268" name="FeatureModel.structure.Group" flags="ng" index="35UNKn">
+        <property id="1157195173468279" name="bindingTime1" index="1Zh0g1" />
+        <property id="1157195173468275" name="max" index="1Zh0g5" />
+        <property id="1157195173468272" name="min" index="1Zh0g6" />
+        <property id="1157195173468284" name="bindingTime2" index="1Zh0ga" />
+        <property id="1157195173468270" name="isClosed" index="1Zh0go" />
+        <child id="6905298041406732269" name="features" index="35UNKm" />
+      </concept>
+      <concept id="6905298041406732263" name="FeatureModel.structure.FeatureModel" flags="ng" index="35UNKs">
+        <child id="1157195173468249" name="rootFeature" index="1Zh0gJ" />
+      </concept>
+      <concept id="1157195173468251" name="FeatureModel.structure.Split" flags="ng" index="1Zh0gH">
+        <property id="1157195173468254" name="max" index="1Zh0gC" />
+        <property id="1157195173468252" name="min" index="1Zh0gE" />
+        <child id="1157195173468257" name="group" index="1Zh0gn" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="35UNKs" id="4b_h38vjO9f">
+    <property role="3GE5qa" value="FeatureModels" />
+    <property role="TrG5h" value="CoffeeMachine" />
+    <node concept="35UNKj" id="4b_h38vjO9g" role="1Zh0gJ">
+      <property role="TrG5h" value="Coffee Machine" />
+      <property role="1Zh0gj" value="5ZkyZIqfVw5/compile" />
+      <node concept="1Zh0gH" id="4b_h38vjO9h" role="1Zh0gs">
+        <property role="1Zh0gE" value="1" />
+        <property role="1Zh0gC" value="1" />
+        <node concept="35UNKn" id="4b_h38vjO9i" role="1Zh0gn">
+          <property role="TrG5h" value="Power" />
+          <property role="1Zh0g6" value="1" />
+          <property role="1Zh0g5" value="2" />
+          <property role="1Zh0g1" value="5ZkyZIqfVwg/assembly" />
+          <property role="1Zh0ga" value="5ZkyZIqfVw5/compile" />
+          <property role="1Zh0go" value="true" />
+          <node concept="35UNKh" id="4b_h38vjO9l" role="35UNKm">
+            <property role="TrG5h" value="Socket" />
+            <property role="1Zh0gj" value="5ZkyZIqfVwg/assembly" />
+          </node>
+          <node concept="35UNKh" id="4b_h38vjO9F" role="35UNKm">
+            <property role="TrG5h" value="Battery" />
+          </node>
+        </node>
+      </node>
+      <node concept="1Zh0gH" id="4b_h38vjO9I" role="1Zh0gs">
+        <property role="1Zh0gE" value="1" />
+        <property role="1Zh0gC" value="2" />
+        <node concept="35UNKn" id="4b_h38vjO9J" role="1Zh0gn">
+          <property role="TrG5h" value="Brew" />
+          <property role="1Zh0g6" value="2" />
+          <property role="1Zh0g5" value="6" />
+          <property role="1Zh0g1" value="5ZkyZIqfVwC/runtime_init" />
+          <property role="1Zh0ga" value="5ZkyZIqfVwM/runtime_run" />
+          <node concept="35UNKh" id="4b_h38vjO9S" role="35UNKm">
+            <property role="TrG5h" value="Espresso" />
+          </node>
+          <node concept="35UNKh" id="4b_h38vjOaf" role="35UNKm">
+            <property role="TrG5h" value="Soup" />
+          </node>
+          <node concept="35UNKh" id="4b_h38vjOam" role="35UNKm">
+            <property role="TrG5h" value="Long" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</model>
+

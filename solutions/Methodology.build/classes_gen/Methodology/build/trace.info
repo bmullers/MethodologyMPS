@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:a85ad9da-c5ce-45c9-9844-8ffbf6e7d07a(Methodology.build)/3772255234266561907">
+    <file name="Methodology.xml">
+      <unit id="3772255234266561907" at="1,0,1029,10" name="Methodology.build.Methodology" />
+    </file>
+  </root>
+  <root nodeRef="r:a85ad9da-c5ce-45c9-9844-8ffbf6e7d07a(Methodology.build)/3772255234266562102">
+    <file name="MethodologyDistribution.xml">
+      <unit id="3772255234266562102" at="1,0,150,10" name="Methodology.build.MethodologyDistribution" />
+    </file>
+  </root>
+  <root nodeRef="r:a85ad9da-c5ce-45c9-9844-8ffbf6e7d07a(Methodology.build)/3772255234266562352">
+    <file name="Info.plist.xml">
+      <unit id="3772255234266562352" at="1,0,122,8" name="Methodology.build.Info$plist" />
+    </file>
+  </root>
+</debug-info>
+

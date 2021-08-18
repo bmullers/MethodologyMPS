@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:fff399dc-68c4-41c5-9ef0-87bce437d416(Solution.Methodology)" content="root">
+  <persistence version="9" />
+  <imports />
+  <registry>
+    <language id="03739458-43af-4b09-880a-7168a8fb745a" name="Strategy">
+      <concept id="3753385900464876461" name="Strategy.structure.CoreAsset" flags="ng" index="yfpWU">
+        <reference id="5183203985202804562" name="matches" index="1ny8v2" />
+        <child id="5183203985202804561" name="arg" index="1ny8v1" />
+      </concept>
+      <concept id="3753385900464876460" name="Strategy.structure.CallProcedure" flags="ng" index="yfpWV">
+        <reference id="5183203985202804558" name="calls" index="1ny8vu" />
+        <child id="5183203985202804560" name="args" index="1ny8v0" />
+      </concept>
+      <concept id="3753385900464876459" name="Strategy.structure.AppliedTactic" flags="ng" index="yfpWW">
+        <property id="5183203985202804541" name="type" index="1ny8uH" />
+        <reference id="5183203985202804544" name="tactic" index="1ny8vg" />
+        <child id="5183203985202804542" name="children" index="1ny8uI" />
+      </concept>
+      <concept id="3753385900464876456" name="Strategy.structure.AbstractTactic" flags="ng" index="yfpWZ">
+        <property id="5183203985203000785" name="rationale" index="1nxSl1" />
+        <child id="5183203985203000786" name="choice" index="1nxSl2" />
+        <child id="5183203985202804545" name="implementation" index="1ny8vh" />
+        <child id="5183203985202804546" name="references" index="1ny8vi" />
+      </concept>
+      <concept id="5183203985203020365" name="Strategy.structure.TacticTypeRef" flags="ng" index="1nx3bt">
+        <reference id="5183203985203020367" name="ref" index="1nx3bv" />
+      </concept>
+      <concept id="5183203985202804531" name="Strategy.structure.FChoiceRef" flags="ng" index="1ny8uz">
+        <reference id="5183203985202804532" name="fchoice" index="1ny8u$" />
+      </concept>
+      <concept id="5183203985202804533" name="Strategy.structure.GChoiceRef" flags="ng" index="1ny8u_">
+        <reference id="5183203985202804534" name="gchoice" index="1ny8uA" />
+      </concept>
+      <concept id="5183203985202804548" name="Strategy.structure.Value" flags="ng" index="1ny8vk">
+        <property id="5183203985202804554" name="value" index="1ny8vq" />
+      </concept>
+      <concept id="5312010138764819643" name="Strategy.structure.Strategy" flags="ng" index="3XSr6C">
+        <reference id="5183203985202804527" name="featureModel" index="1ny8uZ" />
+        <child id="5183203985202804528" name="tacticChoices" index="1ny8uw" />
+        <child id="5183203985202804529" name="appliedTactics" index="1ny8ux" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="3XSr6C" id="5YHICWIh8GK">
+    <property role="3GE5qa" value="Strategies" />
+    <property role="TrG5h" value="General" />
+    <ref role="1ny8uZ" node="4b_h38vjO9f" resolve="CoffeeMachine" />
+    <node concept="yfpWW" id="4b_h38vkzp5" role="1ny8ux">
+      <property role="1ny8uH" value="4vIs90gpJsW/simple" />
+      <ref role="1ny8vg" node="4b_h38vjOaz" resolve="Powerline" />
+      <node concept="yfpWW" id="4b_h38vkzp7" role="1ny8uI">
+        <property role="1ny8uH" value="4vIs90gpJsU/sequence" />
+        <ref role="1ny8vg" node="4b_h38vkzo_" resolve="Coffee" />
+      </node>
+    </node>
+    <node concept="yfpWZ" id="4b_h38vjOaz" role="1ny8uw">
+      <property role="TrG5h" value="Powerline" />
+      <node concept="yfpWV" id="4b_h38vjObo" role="1ny8vh">
+        <ref role="1ny8vu" node="4b_h38vjOb6" resolve="baseProc" />
+        <node concept="yfpWU" id="4b_h38vkzop" role="1ny8v0">
+          <ref role="1ny8v2" node="4b_h38vjOb9" />
+          <node concept="1ny8vk" id="4b_h38vkzoy" role="1ny8v1">
+            <property role="1ny8vq" value="A" />
+          </node>
+        </node>
+      </node>
+      <node concept="1nx3bt" id="4b_h38vjObj" role="1ny8vi">
+        <ref role="1nx3bv" node="5YHICWIh8KF" resolve="BasicTactic" />
+      </node>
+      <node concept="1ny8uz" id="4b_h38vjOaD" role="1nxSl2">
+        <ref role="1ny8u$" node="4b_h38vjO9l" resolve="Socket" />
+      </node>
+    </node>
+    <node concept="yfpWZ" id="4b_h38vkzo_" role="1ny8uw">
+      <property role="TrG5h" value="Coffee" />
+      <property role="1nxSl1" value="this is a rationale" />
+      <node concept="yfpWV" id="4b_h38vkzoW" role="1ny8vh">
+        <ref role="1ny8vu" node="4b_h38vjObf" resolve="sub2" />
+      </node>
+      <node concept="1nx3bt" id="4b_h38vkzoY" role="1ny8vi">
+        <ref role="1nx3bv" node="5YHICWIh8KF" resolve="BasicTactic" />
+      </node>
+      <node concept="1ny8u_" id="4b_h38vkzoQ" role="1nxSl2">
+        <ref role="1ny8uA" node="4b_h38vjO9J" resolve="Brew" />
+      </node>
+    </node>
+  </node>
+</model>
+

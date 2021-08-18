@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-8rigi917ggibdvce6liag6kll7t9l7g">
+  <files names="AbstractTactic_Editor.java:AbstractTactic_EditorBuilder_a.java:AppliedTactic_Editor.java:AppliedTactic_EditorBuilder_a.java:AppliedTactic_SubstituteMenu.java:CallProcedure_Editor.java:CallProcedure_EditorBuilder_a.java:CallProcedure_SubstituteMenu.java:CoreAsset_Editor.java:CoreAsset_EditorBuilder_a.java:CoreAsset_SubstituteMenu.java:Delayed_Editor.java:Delayed_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:FChoiceRef_Editor.java:FChoiceRef_EditorBuilder_a.java:FChoiceRef_SubstituteMenu.java:GChoiceRef_Editor.java:GChoiceRef_EditorBuilder_a.java:GChoiceRef_SubstituteMenu.java:Strategy_Editor.java:Strategy_EditorBuilder_a.java:Strategy_SubstituteMenu.java:TacticAC.java:TacticRefTactic_Editor.java:TacticRefTactic_EditorBuilder_a.java:TacticRefTactic_SubstituteMenu.java:TacticTypeRef_Editor.java:TacticTypeRef_EditorBuilder_a.java:TacticTypeRef_SubstituteMenu.java:Value_Editor.java:Value_EditorBuilder_a.java:choice.java" />
+</product>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:fff399dc-68c4-41c5-9ef0-87bce437d416(Solution.Methodology)" content="header">
+  <persistence version="9" />
+  <attribute name="content" value="header" />
+  <languages>
+    <use id="50a851c9-401b-45e3-83bb-77ced6965729" name="FeatureModel" version="0" />
+    <use id="d7f4c9b7-457c-4ddf-8db1-69fc1d011181" name="TacticType" version="0" />
+    <use id="03739458-43af-4b09-880a-7168a8fb745a" name="Strategy" version="0" />
+  </languages>
+  <imports />
+</model>
+

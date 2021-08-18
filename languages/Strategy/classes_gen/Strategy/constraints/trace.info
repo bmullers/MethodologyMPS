@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,33,0" name="Strategy.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:69d5df7c-2750-48bf-8fb4-7cc9b1cba4c6(Strategy.constraints)/2756068550962314527">
+    <file name="GChoiceRef_Constraints.java">
+      <node id="2756068550962314527" at="31,35,32,34" concept="6" />
+      <node id="2756068550962573786" at="39,44,40,20" concept="4" />
+      <node id="2756068550962573786" at="47,63,48,57" concept="4" />
+      <node id="2756068550962574252" at="51,80,52,84" concept="3" />
+      <node id="2756068550962574851" at="54,43,55,60" concept="1" />
+      <node id="2756068550962576464" at="57,15,58,53" concept="4" />
+      <node id="2756068550962314527" at="62,6,63,131" concept="3" />
+      <node id="2756068550962573786" at="63,131,64,42" concept="1" />
+      <node id="2756068550962314527" at="64,42,65,22" concept="4" />
+      <node id="2756068550962314527" at="67,0,68,0" concept="5" trace="breakingNode_he6ddt_a0a0a0a0a1a0a0a0c" />
+      <node id="2756068550962314527" at="70,0,71,0" concept="5" trace="GChoiceRef$Hz" />
+      <node id="2756068550962314527" at="71,0,72,0" concept="5" trace="Strategy$MO" />
+      <node id="2756068550962314527" at="72,0,73,0" concept="5" trace="Group$1i" />
+      <node id="2756068550962314527" at="76,0,77,0" concept="5" trace="gchoice$gtXn" />
+      <node id="2756068550962314527" at="77,0,78,0" concept="5" trace="featureModel$WLuc" />
+      <node id="2756068550962314527" at="31,0,34,0" concept="0" trace="GChoiceRef_Constraints#()V" />
+      <node id="2756068550962574849" at="54,0,57,0" concept="2" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2756068550962573786" at="38,0,42,0" concept="2" trace="hasOwnScopeProvider#()Z" />
+      <node id="2756068550962573786" at="46,0,50,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="2756068550962574831" at="52,84,57,15" concept="1" />
+      <node id="2756068550962573786" at="50,0,60,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="2756068550962573786" at="44,56,60,10" concept="4" />
+      <node id="2756068550962573786" at="42,0,62,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="2756068550962573786" at="36,90,62,6" concept="3" />
+      <node id="2756068550962314527" at="35,0,67,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="2756068550962314527" at="31,35,32,34" />
+      <scope id="2756068550962573786" at="39,44,40,20" />
+      <scope id="2756068550962573786" at="47,63,48,57" />
+      <scope id="2756068550962574850" at="54,43,55,60" />
+      <scope id="2756068550962314527" at="31,0,34,0" />
+      <scope id="2756068550962574849" at="54,0,57,0">
+        <var name="it" id="2756068550962574849" />
+      </scope>
+      <scope id="2756068550962573786" at="38,0,42,0" />
+      <scope id="2756068550962573786" at="46,0,50,0" />
+      <scope id="2756068550962573786" at="51,80,58,53">
+        <var name="nodes" id="2756068550962574253" />
+      </scope>
+      <scope id="2756068550962573786" at="50,0,60,0">
+        <var name="_context" id="2756068550962573786" />
+      </scope>
+      <scope id="2756068550962573786" at="44,56,60,10" />
+      <scope id="2756068550962573786" at="42,0,62,0" />
+      <scope id="2756068550962314527" at="36,90,65,22">
+        <var name="d0" id="2756068550962573786" />
+        <var name="references" id="2756068550962314527" />
+      </scope>
+      <scope id="2756068550962314527" at="35,0,67,0" />
+      <unit id="2756068550962574849" at="53,317,57,13" name="Strategy.constraints.GChoiceRef_Constraints$1$1$1" />
+      <unit id="2756068550962314527" at="75,0,79,0" name="Strategy.constraints.GChoiceRef_Constraints$LINKS" />
+      <unit id="2756068550962314527" at="69,0,74,0" name="Strategy.constraints.GChoiceRef_Constraints$CONCEPTS" />
+      <unit id="2756068550962573786" at="45,19,60,9" name="Strategy.constraints.GChoiceRef_Constraints$1$1" />
+      <unit id="2756068550962573786" at="37,48,62,5" name="Strategy.constraints.GChoiceRef_Constraints$1" />
+      <unit id="2756068550962314527" at="30,0,80,0" name="Strategy.constraints.GChoiceRef_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:69d5df7c-2750-48bf-8fb4-7cc9b1cba4c6(Strategy.constraints)/5183203985202804563">
+    <file name="CoreAsset_Constraints.java">
+      <node id="5183203985202804563" at="26,34,27,33" concept="6" />
+      <node id="5183203985202832469" at="34,44,35,20" concept="4" />
+      <node id="5183203985202832469" at="42,63,43,57" concept="4" />
+      <node id="5183203985202902020" at="46,80,47,257" concept="4" />
+      <node id="5183203985202804563" at="51,6,52,131" concept="3" />
+      <node id="5183203985202832469" at="52,131,53,42" concept="1" />
+      <node id="5183203985202804563" at="53,42,54,22" concept="4" />
+      <node id="5183203985202804563" at="56,0,57,0" concept="5" trace="breakingNode_3nc0is_a0a0a0a0a1a0a0a0c" />
+      <node id="5183203985202804563" at="59,0,60,0" concept="5" trace="CoreAsset$kT" />
+      <node id="5183203985202804563" at="60,0,61,0" concept="5" trace="CallProcedure$kq" />
+      <node id="5183203985202804563" at="64,0,65,0" concept="5" trace="matches$qsV8" />
+      <node id="5183203985202804563" at="65,0,66,0" concept="5" trace="calls$qn3g" />
+      <node id="5183203985202804563" at="66,0,67,0" concept="5" trace="parameters$XnTA" />
+      <node id="5183203985202804563" at="26,0,29,0" concept="0" trace="CoreAsset_Constraints#()V" />
+      <node id="5183203985202832469" at="33,0,37,0" concept="2" trace="hasOwnScopeProvider#()Z" />
+      <node id="5183203985202832469" at="41,0,45,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="5183203985202832469" at="45,0,49,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="5183203985202832469" at="39,56,49,10" concept="4" />
+      <node id="5183203985202832469" at="37,0,51,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="5183203985202832469" at="31,90,51,6" concept="3" />
+      <node id="5183203985202804563" at="30,0,56,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="5183203985202804563" at="26,34,27,33" />
+      <scope id="5183203985202832469" at="34,44,35,20" />
+      <scope id="5183203985202832469" at="42,63,43,57" />
+      <scope id="5183203985202832469" at="46,80,47,257" />
+      <scope id="5183203985202804563" at="26,0,29,0" />
+      <scope id="5183203985202832469" at="33,0,37,0" />
+      <scope id="5183203985202832469" at="41,0,45,0" />
+      <scope id="5183203985202832469" at="45,0,49,0">
+        <var name="_context" id="5183203985202832469" />
+      </scope>
+      <scope id="5183203985202832469" at="39,56,49,10" />
+      <scope id="5183203985202832469" at="37,0,51,0" />
+      <scope id="5183203985202804563" at="31,90,54,22">
+        <var name="d0" id="5183203985202832469" />
+        <var name="references" id="5183203985202804563" />
+      </scope>
+      <scope id="5183203985202804563" at="30,0,56,0" />
+      <unit id="5183203985202804563" at="58,0,62,0" name="Strategy.constraints.CoreAsset_Constraints$CONCEPTS" />
+      <unit id="5183203985202804563" at="63,0,68,0" name="Strategy.constraints.CoreAsset_Constraints$LINKS" />
+      <unit id="5183203985202832469" at="40,19,49,9" name="Strategy.constraints.CoreAsset_Constraints$1$1" />
+      <unit id="5183203985202832469" at="32,48,51,5" name="Strategy.constraints.CoreAsset_Constraints$1" />
+      <unit id="5183203985202804563" at="25,0,69,0" name="Strategy.constraints.CoreAsset_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:69d5df7c-2750-48bf-8fb4-7cc9b1cba4c6(Strategy.constraints)/5183203985202916582">
+    <file name="FChoiceRef_Constraints.java">
+      <node id="5183203985202916582" at="31,35,32,34" concept="6" />
+      <node id="2756068550962390481" at="39,44,40,20" concept="4" />
+      <node id="2756068550962390481" at="47,63,48,57" concept="4" />
+      <node id="2756068550962491388" at="51,80,52,84" concept="3" />
+      <node id="2756068550962550360" at="54,43,55,60" concept="1" />
+      <node id="2756068550962503177" at="57,15,58,53" concept="4" />
+      <node id="5183203985202916582" at="62,6,63,131" concept="3" />
+      <node id="2756068550962390481" at="63,131,64,42" concept="1" />
+      <node id="5183203985202916582" at="64,42,65,22" concept="4" />
+      <node id="5183203985202916582" at="67,0,68,0" concept="5" trace="breakingNode_y8voj5_a0a0a0a0a1a0a0a0c" />
+      <node id="5183203985202916582" at="70,0,71,0" concept="5" trace="FChoiceRef$G_" />
+      <node id="5183203985202916582" at="71,0,72,0" concept="5" trace="Strategy$MO" />
+      <node id="5183203985202916582" at="72,0,73,0" concept="5" trace="SimpleFeature$k" />
+      <node id="5183203985202916582" at="76,0,77,0" concept="5" trace="fchoice$gtun" />
+      <node id="5183203985202916582" at="77,0,78,0" concept="5" trace="featureModel$WLuc" />
+      <node id="5183203985202916582" at="31,0,34,0" concept="0" trace="FChoiceRef_Constraints#()V" />
+      <node id="2756068550962448448" at="54,0,57,0" concept="2" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2756068550962390481" at="38,0,42,0" concept="2" trace="hasOwnScopeProvider#()Z" />
+      <node id="2756068550962390481" at="46,0,50,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="2756068550962425896" at="52,84,57,15" concept="1" />
+      <node id="2756068550962390481" at="50,0,60,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="2756068550962390481" at="44,56,60,10" concept="4" />
+      <node id="2756068550962390481" at="42,0,62,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="2756068550962390481" at="36,90,62,6" concept="3" />
+      <node id="5183203985202916582" at="35,0,67,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="5183203985202916582" at="31,35,32,34" />
+      <scope id="2756068550962390481" at="39,44,40,20" />
+      <scope id="2756068550962390481" at="47,63,48,57" />
+      <scope id="2756068550962448449" at="54,43,55,60" />
+      <scope id="5183203985202916582" at="31,0,34,0" />
+      <scope id="2756068550962448448" at="54,0,57,0">
+        <var name="it" id="2756068550962448448" />
+      </scope>
+      <scope id="2756068550962390481" at="38,0,42,0" />
+      <scope id="2756068550962390481" at="46,0,50,0" />
+      <scope id="2756068550962390481" at="51,80,58,53">
+        <var name="nodes" id="2756068550962491391" />
+      </scope>
+      <scope id="2756068550962390481" at="50,0,60,0">
+        <var name="_context" id="2756068550962390481" />
+      </scope>
+      <scope id="2756068550962390481" at="44,56,60,10" />
+      <scope id="2756068550962390481" at="42,0,62,0" />
+      <scope id="5183203985202916582" at="36,90,65,22">
+        <var name="d0" id="2756068550962390481" />
+        <var name="references" id="5183203985202916582" />
+      </scope>
+      <scope id="5183203985202916582" at="35,0,67,0" />
+      <unit id="2756068550962448448" at="53,324,57,13" name="Strategy.constraints.FChoiceRef_Constraints$1$1$1" />
+      <unit id="5183203985202916582" at="75,0,79,0" name="Strategy.constraints.FChoiceRef_Constraints$LINKS" />
+      <unit id="5183203985202916582" at="69,0,74,0" name="Strategy.constraints.FChoiceRef_Constraints$CONCEPTS" />
+      <unit id="2756068550962390481" at="45,19,60,9" name="Strategy.constraints.FChoiceRef_Constraints$1$1" />
+      <unit id="2756068550962390481" at="37,48,62,5" name="Strategy.constraints.FChoiceRef_Constraints$1" />
+      <unit id="5183203985202916582" at="30,0,80,0" name="Strategy.constraints.FChoiceRef_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

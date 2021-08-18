@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-7knxuqtqvy0ynu0tu7jauedipaqjqy8">
+  <files names="AssetType_Editor.java:AssetType_EditorBuilder_a.java:AssetType_InspectorBuilder_a.java:EditorAspectDescriptorImpl.java:Literal_Editor.java:Literal_EditorBuilder_a.java:Parameter_Editor.java:Parameter_EditorBuilder_a.java:Parameter_SubstituteMenu.java:Procedure_Editor.java:Procedure_EditorBuilder_a.java:Procedure_InspectorBuilder_a.java:RegexConstraint_Editor.java:RegexConstraint_EditorBuilder_a.java:TacticType_Editor.java:TacticType_EditorBuilder_a.java:TacticType_InspectorBuilder_a.java:general_StyleSheet.java" />
+</product>
+

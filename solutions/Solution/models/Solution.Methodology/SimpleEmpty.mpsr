@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:fff399dc-68c4-41c5-9ef0-87bce437d416(Solution.Methodology)" content="root">
+  <persistence version="9" />
+  <imports />
+  <registry>
+    <language id="d7f4c9b7-457c-4ddf-8db1-69fc1d011181" name="TacticType">
+      <concept id="6905298041406907242" name="TacticType.structure.Procedure" flags="ng" index="35_Iyh" />
+      <concept id="6905298041406907115" name="TacticType.structure.TacticType" flags="ng" index="35_I$g">
+        <property id="6905298041406907233" name="type" index="35_Iyq" />
+        <child id="3669655444834677252" name="procedures" index="7BWSF" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="35_I$g" id="4b_h38vjObm">
+    <property role="3GE5qa" value="TacticTypes" />
+    <property role="TrG5h" value="SimpleEmpty" />
+    <property role="35_Iyq" value="5ZkyZIqgAbH/AOP" />
+    <node concept="35_Iyh" id="4b_h38vjObn" role="7BWSF">
+      <property role="TrG5h" value="emptyProcedure" />
+    </node>
+  </node>
+</model>
+

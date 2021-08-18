@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/FeatureModel/FeatureModel.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Strategy/Strategy.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/TacticType/TacticType.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Methodology.build/Methodology.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Solution/Solution.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

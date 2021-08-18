@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:fff399dc-68c4-41c5-9ef0-87bce437d416(Solution.Methodology)" content="root">
+  <persistence version="9" />
+  <imports />
+  <registry>
+    <language id="d7f4c9b7-457c-4ddf-8db1-69fc1d011181" name="TacticType">
+      <concept id="6905298041406907243" name="TacticType.structure.Parameter" flags="ng" index="35_Iyg">
+        <property id="6905298041406907244" name="name" index="35_Iyn" />
+        <reference id="2095202720477344808" name="type" index="3zq5fH" />
+      </concept>
+      <concept id="6905298041406907242" name="TacticType.structure.Procedure" flags="ng" index="35_Iyh">
+        <property id="6905298041406907296" name="implementation" index="35_Ixr" />
+        <property id="6905298041406907289" name="type" index="35_Ixy" />
+        <property id="6905298041406907292" name="isAutomatic" index="35_IxB" />
+        <child id="6905298041406907303" name="children" index="35_Ixs" />
+        <child id="6905298041406907301" name="parameters" index="35_Ixu" />
+      </concept>
+      <concept id="6905298041406907115" name="TacticType.structure.TacticType" flags="ng" index="35_I$g">
+        <property id="2756068550962031508" name="variantTime2" index="2ay2SE" />
+        <property id="6905298041406907233" name="type" index="35_Iyq" />
+        <property id="6905298041406907238" name="variantTime1" index="35_Iyt" />
+        <child id="3669655444834677252" name="procedures" index="7BWSF" />
+        <child id="2095202720476976008" name="assetTypes" index="3zpvhd" />
+      </concept>
+      <concept id="2095202720476935170" name="TacticType.structure.Literal" flags="ng" index="3zpxf7">
+        <property id="2095202720476935171" name="literal" index="3zpxf6" />
+      </concept>
+      <concept id="2095202720476934652" name="TacticType.structure.AssetType" flags="ng" index="3zpxoT">
+        <property id="2095202720476934690" name="type" index="3zpxnB" />
+        <child id="6387559191289477760" name="literals" index="2Ucx6X" />
+        <child id="2095202720476954307" name="constraint" index="3zp_$6" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="daafa647-f1f7-4b0b-b096-69cd7c8408c0" name="jetbrains.mps.baseLanguage.regexp">
+      <concept id="1174556813606" name="jetbrains.mps.baseLanguage.regexp.structure.DotRegexp" flags="ng" index="1T2EwR" />
+    </language>
+  </registry>
+  <node concept="35_I$g" id="5YHICWIh8KF">
+    <property role="3GE5qa" value="TacticTypes" />
+    <property role="TrG5h" value="BasicTactic" />
+    <property role="35_Iyq" value="5ZkyZIqgAbI/MetaProgramming" />
+    <property role="35_Iyt" value="5ZkyZIqgAc8/link" />
+    <property role="2ay2SE" value="5ZkyZIqgAce/assembly" />
+    <node concept="3zpxoT" id="4b_h38vjOaN" role="3zpvhd">
+      <property role="TrG5h" value="vote" />
+      <property role="3zpxnB" value="1OjDWnYtr84/boolean" />
+      <node concept="3zpxf7" id="4b_h38vjOaP" role="2Ucx6X">
+        <property role="3zpxf6" value="yay" />
+      </node>
+      <node concept="3zpxf7" id="4b_h38vjOaR" role="2Ucx6X">
+        <property role="3zpxf6" value="nay" />
+      </node>
+    </node>
+    <node concept="3zpxoT" id="4b_h38vjOaU" role="3zpvhd">
+      <property role="3zpxnB" value="1OjDWnYtr81/string" />
+      <property role="TrG5h" value="character" />
+      <node concept="1T2EwR" id="4b_h38vjOb1" role="3zp_$6" />
+    </node>
+    <node concept="35_Iyh" id="5YHICWIh8KG" role="7BWSF">
+      <property role="TrG5h" value="emptyProc" />
+    </node>
+    <node concept="35_Iyh" id="4b_h38vjOb6" role="7BWSF">
+      <property role="35_Ixy" value="5ZkyZIqgAdZ/sequence" />
+      <property role="TrG5h" value="baseProc" />
+      <property role="35_Ixr" value="~/procedures/BaseProcedure.txt" />
+      <node concept="35_Iyh" id="4b_h38vjObb" role="35_Ixs">
+        <property role="TrG5h" value="sub1" />
+        <property role="35_IxB" value="true" />
+        <property role="35_Ixr" value="./subP1.py" />
+        <node concept="35_Iyg" id="4b_h38vjObd" role="35_Ixu">
+          <property role="35_Iyn" value="result" />
+          <ref role="3zq5fH" node="4b_h38vjOaN" resolve="vote" />
+        </node>
+      </node>
+      <node concept="35_Iyh" id="4b_h38vjObf" role="35_Ixs">
+        <property role="35_Ixy" value="5ZkyZIqgAe3/loop" />
+        <property role="TrG5h" value="sub2" />
+        <property role="35_IxB" value="true" />
+      </node>
+      <node concept="35_Iyg" id="4b_h38vjOb9" role="35_Ixu">
+        <property role="35_Iyn" value="c" />
+        <ref role="3zq5fH" node="4b_h38vjOaU" resolve="character" />
+      </node>
+    </node>
+  </node>
+</model>
+
